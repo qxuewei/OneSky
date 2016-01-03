@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B68453EA1C38F3C30008FA63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B68453E91C38F3C30008FA63 /* main.m */; };
+		B68453ED1C38F3C30008FA63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B68453EC1C38F3C30008FA63 /* AppDelegate.m */; };
+		B68453F01C38F3C30008FA63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68453EF1C38F3C30008FA63 /* ViewController.m */; };
+		B68453F31C38F3C30008FA63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68453F11C38F3C30008FA63 /* Main.storyboard */; };
+		B68453F51C38F3C30008FA63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68453F41C38F3C30008FA63 /* Assets.xcassets */; };
+		B68453F81C38F3C30008FA63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68453F61C38F3C30008FA63 /* LaunchScreen.storyboard */; };
+		B68454031C38F3C30008FA63 /* OneSkyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B68454021C38F3C30008FA63 /* OneSkyTests.m */; };
+		B684540E1C38F3C30008FA63 /* OneSkyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B684540D1C38F3C30008FA63 /* OneSkyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B68453FF1C38F3C30008FA63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B68453DD1C38F3C30008FA63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B68453E41C38F3C30008FA63;
+			remoteInfo = OneSky;
+		};
+		B684540A1C38F3C30008FA63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B68453DD1C38F3C30008FA63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B68453E41C38F3C30008FA63;
+			remoteInfo = OneSky;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B68453E51C38F3C30008FA63 /* OneSky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneSky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68453E91C38F3C30008FA63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B68453EB1C38F3C30008FA63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B68453EC1C38F3C30008FA63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B68453EE1C38F3C30008FA63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B68453EF1C38F3C30008FA63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B68453F21C38F3C30008FA63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B68453F41C38F3C30008FA63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B68453F71C38F3C30008FA63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B68453F91C38F3C30008FA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68453FE1C38F3C30008FA63 /* OneSkyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneSkyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68454021C38F3C30008FA63 /* OneSkyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneSkyTests.m; sourceTree = "<group>"; };
+		B68454041C38F3C30008FA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68454091C38F3C30008FA63 /* OneSkyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneSkyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B684540D1C38F3C30008FA63 /* OneSkyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneSkyUITests.m; sourceTree = "<group>"; };
+		B684540F1C38F3C30008FA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B68453E21C38F3C30008FA63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68453FB1C38F3C30008FA63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68454061C38F3C30008FA63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B68453DC1C38F3C30008FA63 = {
+			isa = PBXGroup;
+			children = (
+				B68453E71C38F3C30008FA63 /* OneSky */,
+				B68454011C38F3C30008FA63 /* OneSkyTests */,
+				B684540C1C38F3C30008FA63 /* OneSkyUITests */,
+				B68453E61C38F3C30008FA63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B68453E61C38F3C30008FA63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B68453E51C38F3C30008FA63 /* OneSky.app */,
+				B68453FE1C38F3C30008FA63 /* OneSkyTests.xctest */,
+				B68454091C38F3C30008FA63 /* OneSkyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B68453E71C38F3C30008FA63 /* OneSky */ = {
+			isa = PBXGroup;
+			children = (
+				B68453EB1C38F3C30008FA63 /* AppDelegate.h */,
+				B68453EC1C38F3C30008FA63 /* AppDelegate.m */,
+				B68453EE1C38F3C30008FA63 /* ViewController.h */,
+				B68453EF1C38F3C30008FA63 /* ViewController.m */,
+				B68453F11C38F3C30008FA63 /* Main.storyboard */,
+				B68453F41C38F3C30008FA63 /* Assets.xcassets */,
+				B68453F61C38F3C30008FA63 /* LaunchScreen.storyboard */,
+				B68453F91C38F3C30008FA63 /* Info.plist */,
+				B68453E81C38F3C30008FA63 /* Supporting Files */,
+			);
+			path = OneSky;
+			sourceTree = "<group>";
+		};
+		B68453E81C38F3C30008FA63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B68453E91C38F3C30008FA63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B68454011C38F3C30008FA63 /* OneSkyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B68454021C38F3C30008FA63 /* OneSkyTests.m */,
+				B68454041C38F3C30008FA63 /* Info.plist */,
+			);
+			path = OneSkyTests;
+			sourceTree = "<group>";
+		};
+		B684540C1C38F3C30008FA63 /* OneSkyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B684540D1C38F3C30008FA63 /* OneSkyUITests.m */,
+				B684540F1C38F3C30008FA63 /* Info.plist */,
+			);
+			path = OneSkyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B68453E41C38F3C30008FA63 /* OneSky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68454121C38F3C30008FA63 /* Build configuration list for PBXNativeTarget "OneSky" */;
+			buildPhases = (
+				B68453E11C38F3C30008FA63 /* Sources */,
+				B68453E21C38F3C30008FA63 /* Frameworks */,
+				B68453E31C38F3C30008FA63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSky;
+			productName = OneSky;
+			productReference = B68453E51C38F3C30008FA63 /* OneSky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B68453FD1C38F3C30008FA63 /* OneSkyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68454151C38F3C30008FA63 /* Build configuration list for PBXNativeTarget "OneSkyTests" */;
+			buildPhases = (
+				B68453FA1C38F3C30008FA63 /* Sources */,
+				B68453FB1C38F3C30008FA63 /* Frameworks */,
+				B68453FC1C38F3C30008FA63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B68454001C38F3C30008FA63 /* PBXTargetDependency */,
+			);
+			name = OneSkyTests;
+			productName = OneSkyTests;
+			productReference = B68453FE1C38F3C30008FA63 /* OneSkyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B68454081C38F3C30008FA63 /* OneSkyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68454181C38F3C30008FA63 /* Build configuration list for PBXNativeTarget "OneSkyUITests" */;
+			buildPhases = (
+				B68454051C38F3C30008FA63 /* Sources */,
+				B68454061C38F3C30008FA63 /* Frameworks */,
+				B68454071C38F3C30008FA63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B684540B1C38F3C30008FA63 /* PBXTargetDependency */,
+			);
+			name = OneSkyUITests;
+			productName = OneSkyUITests;
+			productReference = B68454091C38F3C30008FA63 /* OneSkyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B68453DD1C38F3C30008FA63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "邱学伟";
+				TargetAttributes = {
+					B68453E41C38F3C30008FA63 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B68453FD1C38F3C30008FA63 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B68453E41C38F3C30008FA63;
+					};
+					B68454081C38F3C30008FA63 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B68453E41C38F3C30008FA63;
+					};
+				};
+			};
+			buildConfigurationList = B68453E01C38F3C30008FA63 /* Build configuration list for PBXProject "OneSky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B68453DC1C38F3C30008FA63;
+			productRefGroup = B68453E61C38F3C30008FA63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B68453E41C38F3C30008FA63 /* OneSky */,
+				B68453FD1C38F3C30008FA63 /* OneSkyTests */,
+				B68454081C38F3C30008FA63 /* OneSkyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B68453E31C38F3C30008FA63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68453F81C38F3C30008FA63 /* LaunchScreen.storyboard in Resources */,
+				B68453F51C38F3C30008FA63 /* Assets.xcassets in Resources */,
+				B68453F31C38F3C30008FA63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68453FC1C38F3C30008FA63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68454071C38F3C30008FA63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B68453E11C38F3C30008FA63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68453F01C38F3C30008FA63 /* ViewController.m in Sources */,
+				B68453ED1C38F3C30008FA63 /* AppDelegate.m in Sources */,
+				B68453EA1C38F3C30008FA63 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68453FA1C38F3C30008FA63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68454031C38F3C30008FA63 /* OneSkyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68454051C38F3C30008FA63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B684540E1C38F3C30008FA63 /* OneSkyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B68454001C38F3C30008FA63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B68453E41C38F3C30008FA63 /* OneSky */;
+			targetProxy = B68453FF1C38F3C30008FA63 /* PBXContainerItemProxy */;
+		};
+		B684540B1C38F3C30008FA63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B68453E41C38F3C30008FA63 /* OneSky */;
+			targetProxy = B684540A1C38F3C30008FA63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B68453F11C38F3C30008FA63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B68453F21C38F3C30008FA63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B68453F61C38F3C30008FA63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B68453F71C38F3C30008FA63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B68454101C38F3C30008FA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B68454111C38F3C30008FA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B68454131C38F3C30008FA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OneSky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.OneSky";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B68454141C38F3C30008FA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OneSky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.OneSky";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B68454161C38F3C30008FA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OneSkyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.OneSkyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneSky.app/OneSky";
+			};
+			name = Debug;
+		};
+		B68454171C38F3C30008FA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OneSkyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.OneSkyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneSky.app/OneSky";
+			};
+			name = Release;
+		};
+		B68454191C38F3C30008FA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OneSkyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.OneSkyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OneSky;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B684541A1C38F3C30008FA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OneSkyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.OneSkyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OneSky;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B68453E01C38F3C30008FA63 /* Build configuration list for PBXProject "OneSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68454101C38F3C30008FA63 /* Debug */,
+				B68454111C38F3C30008FA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B68454121C38F3C30008FA63 /* Build configuration list for PBXNativeTarget "OneSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68454131C38F3C30008FA63 /* Debug */,
+				B68454141C38F3C30008FA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B68454151C38F3C30008FA63 /* Build configuration list for PBXNativeTarget "OneSkyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68454161C38F3C30008FA63 /* Debug */,
+				B68454171C38F3C30008FA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B68454181C38F3C30008FA63 /* Build configuration list for PBXNativeTarget "OneSkyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68454191C38F3C30008FA63 /* Debug */,
+				B684541A1C38F3C30008FA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B68453DD1C38F3C30008FA63 /* Project object */;
+}
